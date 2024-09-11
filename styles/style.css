@@ -1,1 +1,103 @@
 /* место для вашего кода */
+
+.body {
+    width: 1100px;
+    font-family: 'Raleway', serif;
+}
+
+.header {
+    background-color: #424242;
+    margin: 92px 24px;
+    width: auto;
+    height: 100px;
+}
+
+.jumbotron {
+    background-color: #a042a0;
+    margin: 4px 0 51px;
+    height: 757px;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: inherit;
+    color: #fff;
+}
+
+.lots {
+    background-color: #aaa;
+    height: auto;
+    margin: 128px 24px;
+    padding-bottom: 1px;
+}
+
+.lots-content {
+    display: flex;
+    justify-content: space-between;
+    /*row-gap: 40px;*/
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.lots-header {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0 auto 27px 40px;
+}
+
+.lots-card {
+    background-color: cadetblue;
+    height: 563px;
+    width: 334px;
+    position: relative;
+}
+
+.lots-image {
+    position: absolute;
+    height: inherit;
+    object-fit: cover;
+}
+
+.lots-card-content{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lots-card-header {
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.lots-card-text {
+    font-size: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lots-link{
+    margin: 30px auto 0 40px;
+    text-transform: lowercase;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    font-size: 20px;
+}
+
+
+.about {
+    margin: 55px 24px;
+    height: 595px;
+    background-color: darkslateblue
+}
+
+.footer {
+    background-color: darkviolet;
+    margin: 88px 50px;
+    height: 98px;
+}
