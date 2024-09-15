@@ -40,11 +40,13 @@ address {
 
 .header__link {
   display: inline;
+  white-space: nowrap;
 }
 
 .header__link_active {
   text-decoration: none;
   display: inline;
+  white-space: nowrap;
 }
 
 .header__logo {
@@ -301,6 +303,13 @@ address {
 .footer__menu-link {
   text-decoration: underline;
   text-underline-offset: 3px;
+  white-space: nowrap;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+  text-underline-offset: 3px;
+  white-space: nowrap;  
 }
 
 .footer__social-icon {
