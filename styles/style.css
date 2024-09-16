@@ -1,6 +1,5 @@
 /* место для вашего кода */
 
-
 .body {
   width: 1100px;
   margin: auto;
@@ -79,7 +78,7 @@
   height: 100%;
 }
 
-.cover__content{
+.cover__content {
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -172,10 +171,9 @@
   position: relative;
   background-size: cover;
   background-position: center;
-
 }
 
-.card__content{
+.card__content {
   position: absolute;
   inset: 0;
   z-index: 2;
