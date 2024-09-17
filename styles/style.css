@@ -79,9 +79,9 @@
 }
 
 .cover__content {
-  position: absolute;
+  position: relative;
   inset: 0;
-  z-index: 2;
+  z-index: 1;
 }
 
 .cover__title {
@@ -172,15 +172,9 @@
   position: relative;
   background-size: cover;
   background-position: center;
-}
-
-.card__content {
-  position: absolute;
-  inset: 0;
-  z-index: 2;
-  color: white;
   display: flex;
   flex-direction: column;
+  color: white;
   justify-content: space-between;
 }
 
@@ -208,12 +202,14 @@
   text-transform: uppercase;
   font-weight: bold;
   text-underline-offset: 3px;
+  z-index: 1;
 }
 
 .card__text {
   padding: 0 40px 48px;
   font-size: 20px;
   font-weight: 400;
+  z-index: 1;
 }
 
 .lots__look-more-link {
